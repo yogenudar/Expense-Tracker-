@@ -1,0 +1,73 @@
+body {
+    margin:0px;
+    padding: 0px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+margin:0;
+padding: 0cm;
+box-sizing: border-box;
+}
+
+
+#welcome{
+    padding: 20px 20px;
+    border-radius: 20px ;
+    margin: 10px auto;
+    width: 91%;
+    background-color: black;
+    color:white;
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#welcome >h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+#opt{
+    padding: 5px 15px;
+    border-radius: 20px ;
+    margin: 10px auto;
+    width: 80%;
+    background-color: black;
+    color:white;
+    font-size: 45px; 
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+#options {
+    margin-left: 15%;
+    height: 25rem;
+    width:30%;
+    Text-align:center;
+    float:left;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .4);	
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .75);
+    backdrop-filter: blur(5px);
+}
+
+#chart{
+    margin-right: 15%;
+    height:25rem;
+    width:30%;
+    Text-align:center;
+    float:right;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .4);	
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .75);
+    backdrop-filter: blur(5px);
+    
+}
